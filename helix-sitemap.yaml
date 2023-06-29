@@ -1,4 +1,5 @@
 version: 1
+version: 1
 
 sitemaps:
   website:
@@ -10,3 +11,9 @@ sitemaps:
         destination: /food/sitemap.xml
         hreflang: en
         alternate: /{path}
+      it:
+        source: /it/food/query-index.json
+        destination: /it/food/sitemap.xml
+        hreflang: it-IT
+        alternate: /it/{path}
+        
